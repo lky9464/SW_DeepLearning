@@ -19,18 +19,8 @@ X = tf.placeholder(tf.float32, [None, 784])
 Y = tf.placeholder(tf.float32, [None, 10])
 
 L1 = tf.layers.dense(inputs=X, units=256, activation=tf.nn.relu)
-L2 = tf.layers.dense(inputs=X, units=256, activation=tf.nn.relu)
+L2 = tf.layers.dense(inputs=L1, units=256, activation=tf.nn.relu)
 model = tf.layers.dense(inputs=L2, units=10)
-
-# 신경망 레이어 구성 (784-256-256-10)
-W1 = tf.Variable(tf.random_normal([784, 256], stddev=0.01))
-# L1 = tf.nn.relu(tf.matmul(X, W1))
-
-W2 = tf.Variable(tf.random_normal([256, 256], stddev=0.01))
-# L2 = tf.nn.relu(tf.matmul(L1, W2))
-
-W3 = tf.Variable(tf.random_normal([256, 10], stddev=0.01))
-# model = tf.matmul(L2, W3)
 
 
 '''
