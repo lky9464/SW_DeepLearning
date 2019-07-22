@@ -1,0 +1,2 @@
+model_checkpoint_path: "DeepAE_Model_Reuse_tfSaver.ckpt-11000"
+all_model_checkpoint_paths: "DeepAE_Model_Reuse_tfSaver.ckpt-11000"
