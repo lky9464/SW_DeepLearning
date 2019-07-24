@@ -15,23 +15,23 @@
 * 2주차 - CNN
   * afaskldfjklasdf
 * 3주차 - GAN
-  ** adfasjdflkajsldf
+  * adfasjdflkajsldf
 * 4주차 - RNN
-  ** dfawefawegawrgawg
-  <br></br>
+  * dfawefawegawrgawg
+  
 ## Project
 1. 개발계획
 * 일단 GAN을 배웁시다
 * 헤딩을 해봅시다
 * 완성
-
+<br></br>
 
 2. 주요 사용 Tool/기술
 * Pycharm (Python 3.6)
 * Colab
 * GAN
 * and so on
-
+<br></br>
 
 3. 진행경과
 * 00/00
