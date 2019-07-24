@@ -9,11 +9,11 @@
 6. Project (GAN, Style Transfer)
 
 ## 주차별 강의 내용 요약
-1주차 - DNN 
-** abcdefg
-2주차 - CNN
-** afaskldfjklasdf
-3주차 - GAN
-** adfasjdflkajsldf
-4주차 - RNN
-** dfawefawegawrgawg
+* 1주차 - DNN 
+  * abcdefg
+* 2주차 - CNN
+  * afaskldfjklasdf
+* 3주차 - GAN
+  * adfasjdflkajsldf
+* 4주차 - RNN
+  * dfawefawegawrgawg
