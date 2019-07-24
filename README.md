@@ -7,7 +7,8 @@
 4. RNN (Recurrent Neural Network)
 5. 강의 자료 및 실습내용
 6. Project (GAN, Style Transfer)
-
+<br></br>
+<br></br>
 
 ## 주차별 강의 내용 요약
 * 1주차 - DNN 
@@ -18,7 +19,9 @@
   * adfasjdflkajsldf
 * 4주차 - RNN
   * dfawefawegawrgawg
-  
+<br></br>
+<br></br>
+
 ## Project
 1. 개발계획
 * 일단 GAN을 배웁시다
@@ -43,3 +46,5 @@
 * 00/03
   * 결국 완성했다.
 
+<br></br>
+<br></br>
