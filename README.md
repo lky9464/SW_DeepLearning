@@ -18,7 +18,7 @@
   ** adfasjdflkajsldf
 * 4주차 - RNN
   ** dfawefawegawrgawg
-  
+  <br></br>
 ## Project
 1. 개발계획
 * 일단 GAN을 배웁시다
