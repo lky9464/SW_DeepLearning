@@ -14,9 +14,9 @@
 * 2주차 - CNN
   * afaskldfjklasdf
 * 3주차 - GAN
-  * adfasjdflkajsldf
+  ** adfasjdflkajsldf
 * 4주차 - RNN
-  * dfawefawegawrgawg
+  ** dfawefawegawrgawg
   
 ## Project
 1. 개발계획
@@ -30,11 +30,11 @@
 * and so on
 3. 진행경과
 * 00/00
- * ~를 했다
+  * ~를 했다
 * 00/01
- * ~도 했다
+  * ~도 했다
 * 00/02
- * ~또한 했다
+  * ~또한 했다
 * 00/03
- * 결국 완성했다.
+  * 결국 완성했다.
 
