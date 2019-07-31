@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tensorflow.examples.tutorials.mnist import input_data
 
-# # MNIST Number Dataset
+# # MNIST Fashion Dataset
 mnist = input_data.read_data_sets("mnist/mnist_fashion/", one_hot=True)
 
 # 옵션 설정
@@ -18,12 +18,6 @@ n_input = 28
 n_step = 28
 n_hidden = 128
 n_class = 10
-
-# # 사용할 레이어 설정
-# 0 == Multi cell, Select DropOut
-# 1 == Single Cell, Dropout X
-# 2 == Single Cell, Dropout O
-rnn_type = 1
 
 # # 사용자가 임의로 설정
 num_multi_rnn = 5       # 멀티 cell 만들 경우 cell 갯수
@@ -55,6 +49,11 @@ def create_multi_LSTM_cell(keep_prob):
 X = tf.placeholder(tf.float32, [None, n_step, n_input])
 Y = tf.placeholder(tf.float32, [None, n_class])
 
+# # 사용할 레이어 설정
+# 0 == Multi cell, Select DropOut
+# 1 == Single Cell, Dropout X
+# 2 == Single Cell, Dropout O
+rnn_type = 1
 
 if rnn_type == 1:
     print("**********Single Layer LSTM Model without Dropout**********")
