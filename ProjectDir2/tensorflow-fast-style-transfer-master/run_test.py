@@ -51,11 +51,13 @@ def check_args(args):
         print('The maximum width or height of input image must be positive')
         return None
 
+
     # --output
     dirname = os.path.dirname(args.output)
     try:
         if len(dirname) > 0:
             os.stat(dirname)
+
     except:
         os.mkdir(dirname)
 
@@ -82,6 +84,7 @@ def main():
                                                             model_path=args.style_model,
                                                             content_image=content_image,
                                                             )
+
     # execute the graph
     start_time = time.time()
     output_image = transformer.test()
@@ -93,6 +96,7 @@ def main():
     # report execution time
     shape = content_image.shape #(batch, width, height, channel)
     print('Execution time for a %d x %d image : %f msec' % (shape[0], shape[1], 1000.*float(end_time - start_time)/60))
+
 
 if __name__ == '__main__':
     main()
