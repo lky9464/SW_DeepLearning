@@ -56,7 +56,7 @@
 * 적절한 Parameter값을 넣고 결과물 확인
 <br>
 
-(1) Style : La Muse 
+(1) Style : *La Muse* 
 <!DOCTYPE html>
 <table border="0">
  <tr>
@@ -76,7 +76,7 @@
 </table>
 <br></br>
 
-(2) Style : Udnie
+(2) Style : *Udnie*
 <!DOCTYPE html>
 <table border="0">
  <tr>
@@ -124,7 +124,7 @@
 * Optional Parameters는 모두 Default로 두고 Required Parameters만 적절히 설정함. 결과 확인.
 <br>
 
-(1) Style : Life of Farmers
+(1) Style : *Farmer's Life*
 <!DOCTYPE html>
 <table border="0">
  <tr>
@@ -140,31 +140,32 @@
  </tr>
  
  <tr>
-  <td>Style Image(Life of Farmers)</td> <td>Content Image</td> <td>Result Image</td>
+  <td>Style Image(Farmer's Life)</td> <td>Content Image</td> <td>Result Image</td>
  </tr>
 </table>
 <br></br>
 
-(2) Style : __
+(2) Style : *Fuga*
 <!DOCTYPE html>
 <table border="0">
  <tr>
   <td>
-   <img src="" width="300px" height="300px">
+   <img src="https://user-images.githubusercontent.com/28914096/64414118-c6946d80-d0cd-11e9-9056-f194e976e7c6.jpg" width="300px" height="300px">
   </td>
   <td>
-   <img src="" width="300px" height="300px">
+   <img src="https://user-images.githubusercontent.com/28914096/64414092-bbd9d880-d0cd-11e9-8aca-9cdca237bc9a.jpg" width="300px" height="300px">
   </td>
   <td>
-   <img src="" width="300px" height="300px">
+   <img src="https://user-images.githubusercontent.com/28914096/64414072-b2e90700-d0cd-11e9-94f7-6e7f0e3ac56a.jpg" width="300px" height="300px">
   </td>
  </tr>
  
  <tr>
-  <td>Style Image</td> <td>Content Image</td> <td>Result Image</td>
+  <td>Style Image(Fuga)</td> <td>Content Image</td> <td>Result Image</td>
  </tr>
 </table>
 
+* Train 결과 (1)과 (2)는 각각 샤갈의 '*Farmer's Life*', 칸딘스키의 '*Fuga*'의 스타일을 학습시킨 것이다. 
 <br></br>
 
 ### Reference
