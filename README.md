@@ -44,7 +44,7 @@
 <br></br>
 ## Project
 직접 Style Transfer를 실습해 볼 수 있다. 실습을 위한 준비물은 아래 '요구사항' 부분에 기술해놓았다.
-프로젝트 실습에 필요한 소스는 'ProjectDir2/tensorflow-fast~' 디렉토리에 있으며, 아래 몇가지 요구사항이 충족되어야 한다.
+프로젝트 실습에 필요한 소스는     ProjectDir2/tensorflow-fast~     디렉토리에 있으며, 아래 몇가지 요구사항이 충족되어야 한다.
 <br></br><br></br>
 
 **1. 요구사항**
