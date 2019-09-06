@@ -80,14 +80,14 @@
 
 <!DOCTYPE html>
 <div>
- <img src="https://user-images.githubusercontent.com/28914096/64403879-24688b80-d0b5-11e9-8f48-2fdb29b7ee80.jpg" style=” display:block;” width="40%">
+ <img src="https://user-images.githubusercontent.com/28914096/64403879-24688b80-d0b5-11e9-8f48-2fdb29b7ee80.jpg" style="display:block;" width="40%">
   Style Image
  </img>
- <img src="https://user-images.githubusercontent.com/28914096/64403904-2fbbb700-d0b5-11e9-8383-a3d45882e380.jpg" style=” display:block;” width="40%">
+ <img src="https://user-images.githubusercontent.com/28914096/64403904-2fbbb700-d0b5-11e9-8383-a3d45882e380.jpg" style="display:block;" width="40%">
   Content Image
  </img>
  <br>
- <img src="https://user-images.githubusercontent.com/28914096/64403919-39451f00-d0b5-11e9-9494-c5e4e7c5ad8a.jpg" style=” display:block;” width="40%">
+ <img src="https://user-images.githubusercontent.com/28914096/64403919-39451f00-d0b5-11e9-9494-c5e4e7c5ad8a.jpg" style="display:block;" width="40%">
   Result Image
  </img>
 </div>
