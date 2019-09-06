@@ -49,8 +49,8 @@
 <br></br><br></br>
 
 **1. 요구사항**
-* Pycharm
-* Python3 (version 3.5 이상)
+* Pycharm (or 그 외 Python작업 가능한 환경)
+* Python3.5 이상
 * 주요 라이브러리
   * tensorflow, numpy, matplotlib, scipy(1.13.x), PIL(or Pillow), os
 * Pre-trained VGG19
@@ -67,7 +67,7 @@
 
 **<p></p>2-1. Project 수행과정 : Test**
 * 기존에 존재하는 여러 Style Transfer Project들을 참조했고, 그 중 본인의 작업환경에 가장 적합한 Project를 찾아냄(아래 링크).
-  * Thanks to [hwalsuklee](https://github.com/hwalsuklee) : [TF Fast Style Transfer](https://github.com/hwalsuklee/tensorflow-fast-style-transfer)
+  * [TF Fast Style Transfer](https://github.com/hwalsuklee/tensorflow-fast-style-transfer)
 * Test과정에서 요구되는 Parameter들을 알아봄.
   * Required
     * ```--content``` : Filename of the content image. Default: content/female_knight.jpg
@@ -75,8 +75,10 @@
     * ```--output``` : Filename of the output image. Default: result.jpg
   * Optional
     * ```--max_size``` : Maximum width or height of the input images. None do not change image size. Default: None
+* Pycharm을 이용할 경우 각 Parameter는 ```Run>Edit Configurations```에서 설정
+  * 예시
+  <img src="https://user-images.githubusercontent.com/28914096/64407900-706cfd80-d0c0-11e9-9c43-48b7b585d0b7.png">
 * 적절한 Parameter값을 넣고 결과물 확인
-* 결과물
 
 (1) Style : La Muse 
 <!DOCTYPE html>
