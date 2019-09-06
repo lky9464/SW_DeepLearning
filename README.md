@@ -77,7 +77,7 @@
     * ```--max_size``` : Input Image의 최대 높이/너비 설정, None은 크기 변경x. Default: None
 * Pycharm을 이용할 경우 각 Parameter는 ```Run>Edit Configurations```에서 설정
   * 예시
-  <img src="https://user-images.githubusercontent.com/28914096/64407900-706cfd80-d0c0-11e9-9c43-48b7b585d0b7.png">
+  <img src="https://user-images.githubusercontent.com/28914096/64407900-706cfd80-d0c0-11e9-9c43-48b7b585d0b7.png"><br>
   * script path도 ```~/run_test.py```로 되어있는지 확인해주자. (맞지 않으면 ```run_test.py```가 있는 위치를 적어준다.) 
 * 적절한 Parameter값을 넣고 결과물 확인
 
