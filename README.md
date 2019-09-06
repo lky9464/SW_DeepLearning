@@ -80,6 +80,7 @@
   <img src="https://user-images.githubusercontent.com/28914096/64407900-706cfd80-d0c0-11e9-9c43-48b7b585d0b7.png"><br>
   * script path도 ```~/run_test.py```로 되어있는지 확인해주자. (맞지 않으면 ```run_test.py```가 있는 위치를 적어준다.) 
 * 적절한 Parameter값을 넣고 결과물 확인
+<br>
 
 (1) Style : La Muse 
 <!DOCTYPE html>
@@ -147,6 +148,7 @@
     * ```--max_size```: 학습하는 동안의 input images의 최대 높이/최대 너비, None은 image size 변경x. Default: None
 * 각 Parameter 설정은 Test단계와 동일
 * Optional Parameters는 모두 Default로 두고 Required Parameters만 적절히 설정함. 결과 확인.
+<br>
 
 (1) Style : Life of Farmers
 <!DOCTYPE html>
