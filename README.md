@@ -96,7 +96,7 @@
   </td>
  </tr>
  <tr>
-  <td>Style Image</td> <td>Content Image</td> <td>Result Image</td>
+  <td>Style Image(La Muse)</td> <td>Content Image</td> <td>Result Image</td>
  </tr>
 </table>
 <br></br>
@@ -117,7 +117,7 @@
  </tr>
  
  <tr>
-  <td>Style Image</td> <td>Content Image</td> <td>Result Image</td>
+  <td>Style Image(Udnie)</td> <td>Content Image</td> <td>Result Image</td>
  </tr>
 </table>
 
@@ -164,7 +164,7 @@
  </tr>
  
  <tr>
-  <td>Style Image</td> <td>Content Image</td> <td>Result Image</td>
+  <td>Style Image(Life of Farmers)</td> <td>Content Image</td> <td>Result Image</td>
  </tr>
 </table>
 <br></br>
