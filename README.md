@@ -59,7 +59,7 @@
 * MSCOCO train2014 DB
   * 마찬가지로 Train할 경우 필요하다. 용량이 매우 커서(약 13GB) 첨부하지 못했고, 별도로 다운로드 해야한다.
   * 다운로드 링크 : [MSCOCO train2014 DB](http://images.cocodataset.org/zips/train2014.zip)
-  * 다운로드 후 'ProjectDir2/tensorflow-fast~'에 두면 된다.
+  * 다운로드 후 ```ProjectDir2/tensorflow-fast~```에 두면 된다.
   * 참고로 다운로드가 ~~더럽게~~ 오래걸린다.
 <br></br><br></br>
 
