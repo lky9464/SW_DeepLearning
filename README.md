@@ -46,22 +46,41 @@
 * 
 <br></br>
 ## Project
-직접 Style Transfer를 실습해 볼 수 있다. 실습을 위한 준비물은 아래 '요구사항' 부분에 기술해 놓았다.
-1-1. Project 수행과정(Test)
+직접 Style Transfer를 실습해 볼 수 있다. 실습을 위한 준비물은 아래 '요구사항' 부분에 기술해놓았다.
+<br></br>
+프로젝트 실습에 필요한 소스는 'ProjectDir2/tensorflow-fast~' 디렉토리에 있으며, 아래 몇가지 요구사항이 충족되어야 한다.
+<br></br>
+
+1. 요구사항
+* Pycharm
+
+* Python3 (version 3.5 이상)
+
+* 주요 라이브러리
+** tensorflow, numpy, matplotlib, scipy(1.13.x), PIL(or Pillow), os
+
+* Pre-trained VGG19
+** 프로젝트에 첨부했으나, 다운로드가 제대로 되지 않는 경우가 있었다. 정상파일 크기(약 500MB)가 아니거나 Train시 문제가 생기면 아래 다운로드 링크를 통해 다운로드 하면된다. Test시에는 사용되지 않는다.
+** 다운로드 링크 : Pre-trained VGG19
+** 다운로드 후 'ProjectDir2/tensorflow-fast~'경로에 'pre_trained_model' 디렉토리를 만들어 저장해야 한다.
+
+* MSCOCO train2014 DB
+** 마찬가지로 Train할 경우 필요하다. 용량이 매우 커서(약 13GB) 첨부하지 못했고, 별도로 다운로드 해야한다.
+** 다운로드 링크 : MSCOCO train2014 DB
+** 다운로드 후 'ProjectDir2/tensorflow-fast~'에 두면 된다.
+
+<br></br>
+
+2-1. Project 수행과정(Test)
 * Style Transfer를 위해 아예 새로운 신경망과 모델을 만드는 것은 역부족이라 판단.
 * 기존에 존재하는 여러 Style Transfer Project들을 참조했고, 그 중 본인의 작업환경에 가장 적합한 Project를 찾아냄.
 * Pre-Trained Model이 존재하여(6가지), 이를 기반으로한 Test에 요구되는 Parameter들을 알아봄.
 * Pre-Trained Model에 Content Image, Style Image를 입력으로 하여, 직접 결과물(Output) 확인.
-1-2. Project 수행과정(Train)
-* 나만의 Model을 만들기 위해 학습에 필요한 DataSet을 구함(MS COCO).
+* 실습 단계
+2-2. Project 수행과정(Train)
+* 나만의 Model을 만들기 위해 학습에 필요한 DataSet을 구함(MSCOCO Train2014).
+** Train2014
 
-<br></br>
-
-2. 요구사항
-* Pycharm (Python 3.6)
-* Colab
-* GAN
-* and so on
 <br></br>
 
 3. 진행경과
