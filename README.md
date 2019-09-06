@@ -1,48 +1,23 @@
 창원대학교 정보통신공학과 2019 하계 딥러닝 특강
 =============================================
 ## 목차
-1. 개요
-2. DNN (Deep Neural Network)
-3. CNN (Convolutional Neural Network)
-4. GAN (Generative Adversarial Network)
-5. RNN (Recurrent Neural Network)
-6. Project (GAN, Style Transfer)
+* 개요
+* Project (Style Transfer with TensorFlow)
+  * 요구사항
+  * 수행과정
+    * Test과정
+    * Train과정
 <br></br>
 * * *
 <br></br>
 
 ## 개요
-* 인공지능과 머신러닝은 지난 수 십년간 대학과 연구소를 중심으로 한 학계가 주도를 해 왔다. 하지만 이러한 패러다임은 최근 들어 완전히 바뀌게 되었으며, 우리가 잘 알고 있는 구글, 페이스북, 마이크로소프트 같은 거대 IT기업이나 첨단 기술을 보유한 소규모 스타트 업 위주의 기업들이 주도하는 양상이다.
+* 인공지능과 기계학습은 지난 수 십년간 대학과 연구소를 중심으로 한 학계가 주도를 해 왔다. 하지만 이러한 패러다임은 최근 들어 완전히 바뀌게 되었으며, 우리가 잘 알고 있는 구글, 페이스북, 마이크로소프트 같은 거대 IT기업이나 첨단 기술을 보유한 소규모 스타트 업 위주의 기업들이 주도하는 양상이다.
 * 이번 교육과정의 강의 내용은 기본적인 TensorFlow 내용 및 사용법, 기본 신경망, CNN(Convolutional Neural Networks), RNN(Recurrent Neural Networks), GAN등 널리 알려진 딥러닝 기술들에 대한 내용이었다. 이러한 딥러닝 망들을 활용하여, 대규모 영상 인식, 자연어처리뿐만 아니라, 현재 다양한 딥러닝 응용으로 소개되고 있는 여러 가지 예들을 구현할 수 있다.
-
-<!DOCTYPE html>
-<br></br><br></br>
-
-<body>
- <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/1200px-TensorFlowLogo.svg.png" width="30%"/>
-   <br></br>
-   TensorFlow Logo
- </div>
-</body>
-
-<br></br><br></br>
-
-## DNN
-* 
+* 이번강의에서 처음 마주한 신경망은 GAN(Generative Adversarial Network)이었다. 학과 강의중 영상처리라는 과목에서 여러 이미지의 변환, 잡음 처리 등을 해보며 흥미를 느꼈는데, 기계학습을 이런 이미지 변환에 적용시킨다는 것이 흥미롭다 생각하여 프로젝트 주제를 Style Transfer를 선택했다.
+* 이번 과정에서 배운 기계학습의 기본개념과 이론, 각 신경망에 대한 강의자료를 ```~/lec_files_DL````에 첨부했다.
 <br></br>
 
-## CAN
-* adfasjdflkajsldf
-<br></br>
-
-## GAN
-* dfawefawegawrgawg
-<br></br>
-
-## RNN
-* 
-<br></br>
 ## Project
 직접 Style Transfer를 실습해 볼 수 있다. 실습을 위한 준비물은 아래 '요구사항' 부분에 기술해놓았다.
 프로젝트 실습에 필요한 소스는 ```ProjectDir2/tensorflow-fast~``` 디렉토리에 있으며, 아래 몇가지 요구사항이 충족되어야 한다.
