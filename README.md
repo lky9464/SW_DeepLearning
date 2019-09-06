@@ -80,11 +80,11 @@
 
 <!DOCTYPE html>
 <div align="center">
- <img src="https://user-images.githubusercontent.com/28914096/64403879-24688b80-d0b5-11e9-8f48-2fdb29b7ee80.jpg" width="25%" align="left">
+ <img src="https://user-images.githubusercontent.com/28914096/64403879-24688b80-d0b5-11e9-8f48-2fdb29b7ee80.jpg" width="25%">
   <br></br>
   Style Image
  </img>
- <img src="https://user-images.githubusercontent.com/28914096/64403904-2fbbb700-d0b5-11e9-8383-a3d45882e380.jpg" width="25%" align="left">
+ <img src="https://user-images.githubusercontent.com/28914096/64403904-2fbbb700-d0b5-11e9-8383-a3d45882e380.jpg" width="25%">
   <br></br>
   Content Image
  </img>
