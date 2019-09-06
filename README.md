@@ -88,13 +88,12 @@
  </img>
 </div>
 
-<div>
- <table border="0" width="1800">
-  <tr width="600">
-   <td>Style Image</td><td>Content Image</td><td>Result Image</td>
-  </tr>
- </table>
-</div>
+<table border="0" width="1800">
+ <tr width="600">
+  <td>Style Image</td><td>Content Image</td><td>Result Image</td>
+ </tr>
+</table>
+
 <br></br><br></br>
 
 **<p></p>2-2. Project 수행과정 : Train**
