@@ -15,9 +15,8 @@
 * 본 강의 내용은 기본적인 텐서플로우 내용 및 사용법, 기본 신경망, CNN(Convolutional Neural Networks), RNN(Recurrent Neural Networks), GAN등 널리 알려진 딥러닝 기술들을 소개하고 있다. 이러한 딥러닝 망들을 활용하여, 대규모 영상 인식, 자연어처리뿐만 아니라, 현재 다양한 딥러닝 응용으로 소개되고 있는 여러 가지 예들을 구현한다.
 <br></br>
 
-<div>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/1200px-TensorFlowLogo.svg.png" align="mid" width="50%">align="center"
-</img>
+<div align="center">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/1200px-TensorFlowLogo.svg.png" align="mid"  width="50%"/>
 </div>
 
 <br></br>
