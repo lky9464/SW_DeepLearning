@@ -78,6 +78,7 @@
 * 적절한 Parameter값을 넣고 결과물 확인
 * 결과물
 
+(1) Style : La Muse 
 <!DOCTYPE html>
 <table border="0">
  <tr>
@@ -91,14 +92,33 @@
    <img src="https://user-images.githubusercontent.com/28914096/64403919-39451f00-d0b5-11e9-9494-c5e4e7c5ad8a.jpg" width="250px" height="250px">
   </td>
  </tr>
+ <tr>
+  <td>Style Image</td> <td>Content Image</td> <td>Result Image</td>
+ </tr>
+</table>
+<br></br>
+
+(2) Style : Udnie
+<!DOCTYPE html>
+<table border="0">
+ <tr>
+  <td>
+   <img src="https://user-images.githubusercontent.com/28914096/64407370-20da0200-d0bf-11e9-9296-553446a8b8aa.jpg" width="250px" height="250px">
+  </td>
+  <td>
+   <img src="https://user-images.githubusercontent.com/28914096/64407348-19b2f400-d0bf-11e9-8640-bdc1b985b270.jpg" width="250px" height="250px">
+  </td>
+  <td>
+   <img src="https://user-images.githubusercontent.com/28914096/64407370-20da0200-d0bf-11e9-9296-553446a8b8aa.jpg" width="250px" height="250px">
+  </td>
+ </tr>
  
  <tr>
   <td>Style Image</td> <td>Content Image</td> <td>Result Image</td>
  </tr>
 </table>
 
-<br></br><br></br>
-
+<br></br>
 **<p></p>2-2. Project 수행과정 : Train**
 * 나만의 Model을 만들기 위해 학습에 필요한 DataSet을 구함(MSCOCO Train2014).
 * 마찬가지로, Train과정에서 요구되는 Parameter들을 알아봄.
