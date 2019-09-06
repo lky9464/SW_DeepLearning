@@ -89,8 +89,8 @@
 </div>
 
 <div>
- <table width="90%">
-  <tr>
+ <table border="0" width="600">
+  <tr width="200">
    <td>Style Image</td><td>Content Image</td><td>Result Image</td>
   </tr>
  </table>
