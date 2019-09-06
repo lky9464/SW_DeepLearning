@@ -88,7 +88,9 @@
  </img>
 </div>
 <div>
-Style Image&nbsp;&nbsp;&nbsp;&nbsp;Content Image&nbsp;&nbsp;&nbsp;&nbsp;Result Image
+<tr>
+ <td>Style Image</td><td>Content Image</td><td>Result Image</td>
+</tr>
 </div>
 <br></br><br></br>
 
