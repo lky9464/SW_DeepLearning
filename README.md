@@ -87,9 +87,8 @@
  <img src="https://user-images.githubusercontent.com/28914096/64403919-39451f00-d0b5-11e9-9494-c5e4e7c5ad8a.jpg" width="30%">
  </img>
 </div>
-
 <div>
-<text="Style Image"/> <text="Content Image"/> <text="Result Image"/>
+<p>Style Image</p> <p>Content Image</p> <p>Result Image</p>
 </div>
 <br></br><br></br>
 
