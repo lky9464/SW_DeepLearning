@@ -70,14 +70,15 @@
   * [TF Fast Style Transfer](https://github.com/hwalsuklee/tensorflow-fast-style-transfer)
 * Test과정에서 요구되는 Parameter들을 알아봄.
   * Required
-    * ```--content``` : Filename of the content image. Default: content/female_knight.jpg
-    * ```--style-model``` : Filename of the style model. Default: models/wave.ckpt
-    * ```--output``` : Filename of the output image. Default: result.jpg
+    * ```--content``` : Content Image의 파일 이름 Default: content/female_knight.jpg
+    * ```--style-model``` : Style Model의 파일 이름 Default: models/wave.ckpt
+    * ```--output``` : 결과롤 나온 Image의 파일 이름 설정 Default: result.jpg
   * Optional
-    * ```--max_size``` : Maximum width or height of the input images. None do not change image size. Default: None
+    * ```--max_size``` : Input Image의 최대 높이/너비 설정, None은 크기 변경x. Default: None
 * Pycharm을 이용할 경우 각 Parameter는 ```Run>Edit Configurations```에서 설정
   * 예시
   <img src="https://user-images.githubusercontent.com/28914096/64407900-706cfd80-d0c0-11e9-9c43-48b7b585d0b7.png">
+  * script path도 ```~/run_test.py```로 되어있는지 확인해주자. (맞지 않으면 ```run_test.py```가 있는 위치를 적어준다.) 
 * 적절한 Parameter값을 넣고 결과물 확인
 
 (1) Style : La Muse 
@@ -124,7 +125,66 @@
 **<p></p>2-2. Project 수행과정 : Train**
 * 나만의 Model을 만들기 위해 학습에 필요한 DataSet을 구함(MSCOCO Train2014).
 * 마찬가지로, Train과정에서 요구되는 Parameter들을 알아봄.
-<br></br><br></br>
+  * Required
+    * ```--style```: Style Image의 파일 이름(학습을 통해 만들고 싶은 Style Image). Default: images/wave.jpg
+    * ```--output```: 학습을 통해 만든 모델을 저장할 경로. Train-log 역시 같은 곳에 저장된다. Default: models
+    * ```--trainDB```: MSCOCO DB의 경로. Default: train2014
+    * ```--vgg_model```: Pre-trained model의 경로. Default: pre_trained_model
+  * Optional
+    * ```--content_weight```: content-loss의 가중치. Default: 7.5e0
+    * ```--style_weight```: style-loss의 가중치. Default: 5e2
+    * ```--tv_weight```: total-varaince-loss의 가중치. Default: 2e2
+    * ```--content_layers```: content손실 계산에 사용되는 공백으로 구분 된 VGG-19 레이어 이름. Default: relu4_2
+    * ```--style_layers```: style손실 계산에 사용되는 공백으로 구분 된 VGG-19 레이어 이름. Default: relu1_1 relu2_1 relu3_1 relu4_1 relu5_1
+    * ```--content_layer_weights```: content손실에 대한 각 content layer의 공백으로 구분 된 가중치. Default: 1.0
+    * ```--style_layer_weights```: 각 style layer의 공백으로 분리된 가중치. Default: 0.2 0.2 0.2 0.2 0.2
+    * ```--max_size```: input images의 최대 높이/최대 너비. Default: None
+    * ```--num_epochs```: 학습시 epoch 수. Default: 2
+    * ```--batch_size```: Batch size. Default: 4
+    * ```--learn_rate```: Adam optimizer 학습률. Default: 1e-3
+    * ```--checkpoint_every```: checkpoint 저장 빈도. Default: 1000
+    * ```--test```: 학습 하는동안의 content image 이름. Default: None
+    * ```--max_size```: 학습하는 동안의 input images의 최대 높이/최대 너비, None은 image size 변경x. Default: None
+* 각 Parameter 설정은 Test단계와 동일
+* Optional Parameters는 모두 Default로 두고 Required Parameters만 적절히 설정함. 결과 확인.
 
+(1) Style : Life of Farmers
+<!DOCTYPE html>
+<table border="0">
+ <tr>
+  <td>
+   <img src="https://user-images.githubusercontent.com/28914096/64409364-b6779080-d0c3-11e9-9772-f8b7befae10d.jpg" width="300px" height="300px">
+  </td>
+  <td>
+   <img src="https://user-images.githubusercontent.com/28914096/64409396-c3947f80-d0c3-11e9-92a6-633be25c87a8.jpg" width="300px" height="300px">
+  </td>
+  <td>
+   <img src="https://user-images.githubusercontent.com/28914096/64409357-b4153680-d0c3-11e9-93ca-0c34d1c685bf.jpg" width="300px" height="300px">
+  </td>
+ </tr>
+ 
+ <tr>
+  <td>Style Image</td> <td>Content Image</td> <td>Result Image</td>
+ </tr>
+</table>
 <br></br>
-<br></br>
+
+(2) Style : __
+<!DOCTYPE html>
+<table border="0">
+ <tr>
+  <td>
+   <img src="" width="300px" height="300px">
+  </td>
+  <td>
+   <img src="" width="300px" height="300px">
+  </td>
+  <td>
+   <img src="" width="300px" height="300px">
+  </td>
+ </tr>
+ 
+ <tr>
+  <td>Style Image</td> <td>Content Image</td> <td>Result Image</td>
+ </tr>
+</table>
