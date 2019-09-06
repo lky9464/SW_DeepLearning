@@ -20,7 +20,7 @@
 
 <body>
  <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/1200px-TensorFlowLogo.svg.png" width="50%"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/1200px-TensorFlowLogo.svg.png" width="30%"/>
    <br></br>
    TensorFlow Logo
  </div>
@@ -79,17 +79,15 @@
 * 결과물
 
 <!DOCTYPE html>
+<div align="horizontal">
  <img src="https://user-images.githubusercontent.com/28914096/64403879-24688b80-d0b5-11e9-8f48-2fdb29b7ee80.jpg" width="25%">
- <br>Style Image</br>
  </img>
  <img src="https://user-images.githubusercontent.com/28914096/64403904-2fbbb700-d0b5-11e9-8383-a3d45882e380.jpg" width="25%">
- <br>Content Image</br>
  <br></br>
  </img>
  <img src="https://user-images.githubusercontent.com/28914096/64403919-39451f00-d0b5-11e9-9494-c5e4e7c5ad8a.jpg" width="25%">
- <br>Result Image</br>
  </img>
- 
+</div>
 <br></br><br></br>
 
 **<p></p>2-2. Project 수행과정 : Train**
