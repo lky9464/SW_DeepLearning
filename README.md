@@ -88,7 +88,9 @@
  </img>
 </div>
 
-Style Image          Content Image          Result Image
+<div>
+<text="Style Image"/> <text="Content Image"/> <text="Result Image"/>
+</div>
 <br></br><br></br>
 
 **<p></p>2-2. Project 수행과정 : Train**
