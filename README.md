@@ -79,6 +79,7 @@
 * 결과물
 
 <!DOCTYPE html>
+<div>
  <img src="https://user-images.githubusercontent.com/28914096/64403879-24688b80-d0b5-11e9-8f48-2fdb29b7ee80.jpg" width="30%">
   Style Image
  <img src="https://user-images.githubusercontent.com/28914096/64403904-2fbbb700-d0b5-11e9-8383-a3d45882e380.jpg" width="30%">
@@ -86,7 +87,7 @@
  <br>
  <img src="https://user-images.githubusercontent.com/28914096/64403919-39451f00-d0b5-11e9-9494-c5e4e7c5ad8a.jpg" width="30%">
   Result Image
-
+</div>
 
 <br></br><br></br>
 
