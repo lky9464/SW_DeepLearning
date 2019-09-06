@@ -87,10 +87,13 @@
  <img src="https://user-images.githubusercontent.com/28914096/64403919-39451f00-d0b5-11e9-9494-c5e4e7c5ad8a.jpg" width="30%">
  </img>
 </div>
+
 <div>
-<tr>
- <td width="30%">Style Image</td><td width="30%">Content Image</td><td width="30%">Result Image</td>
-</tr>
+ <table width="90%">
+  <tr>
+   <td>Style Image</td><td>Content Image</td><td>Result Image</td>
+  </tr>
+ </table>
 </div>
 <br></br><br></br>
 
