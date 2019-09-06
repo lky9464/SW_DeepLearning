@@ -57,17 +57,17 @@
 * Python3 (version 3.5 이상)
 
 * 주요 라이브러리
-** tensorflow, numpy, matplotlib, scipy(1.13.x), PIL(or Pillow), os
+  * tensorflow, numpy, matplotlib, scipy(1.13.x), PIL(or Pillow), os
 
 * Pre-trained VGG19
-** 프로젝트에 첨부했으나, 다운로드가 제대로 되지 않는 경우가 있었다. 정상파일 크기(약 500MB)가 아니거나 Train시 문제가 생기면 아래 다운로드 링크를 통해 다운로드 하면된다. Test시에는 사용되지 않는다.
-** 다운로드 링크 : Pre-trained VGG19
-** 다운로드 후 'ProjectDir2/tensorflow-fast~'경로에 'pre_trained_model' 디렉토리를 만들어 저장해야 한다.
+  * 프로젝트에 첨부했으나, 다운로드가 제대로 되지 않는 경우가 있었다. 정상파일 크기(약 500MB)가 아니거나 Train시 문제가 생기면 아래 다운로드 링크를 통해 다운로드 하면된다. Test시에는 사용되지 않는다.
+  * 다운로드 링크 : Pre-trained VGG19
+  * 다운로드 후 'ProjectDir2/tensorflow-fast~'경로에 'pre_trained_model' 디렉토리를 만들어 저장해야 한다.
 
 * MSCOCO train2014 DB
-** 마찬가지로 Train할 경우 필요하다. 용량이 매우 커서(약 13GB) 첨부하지 못했고, 별도로 다운로드 해야한다.
-** 다운로드 링크 : MSCOCO train2014 DB
-** 다운로드 후 'ProjectDir2/tensorflow-fast~'에 두면 된다.
+  * 마찬가지로 Train할 경우 필요하다. 용량이 매우 커서(약 13GB) 첨부하지 못했고, 별도로 다운로드 해야한다.
+  * 다운로드 링크 : MSCOCO train2014 DB
+  * 다운로드 후 'ProjectDir2/tensorflow-fast~'에 두면 된다.
 
 <br></br>
 
