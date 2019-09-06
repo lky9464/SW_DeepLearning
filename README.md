@@ -1,6 +1,6 @@
 창원대학교 정보통신공학과 2019 하계 딥러닝 특강
 =============================================
-## 
+## 목차
 1. 개요
 2. DNN (Deep Neural Network)
 3. CNN (Convolutional Neural Network)
@@ -9,10 +9,11 @@
 6. Project (GAN, Style Transfer)
 <br></br>
 <br></br>
+=============================================
 
 ## 개요
 * 인공지능과 머신러닝은 지난 수 십년간 대학과 연구소를 중심으로 한 학계가 주도를 해 왔다. 하지만 이러한 패러다임은 최근 들어 완전히 바뀌게 되었으며, 우리가 잘 알고 있는 구글, 페이스북, 마이크로소프트 같은 거대 IT기업이나 첨단 기술을 보유한 소규모 스타트 업 위주의 기업들이 주도하는 양상이다.
-* 이번 교육과정의 강의 내용은 기본적인 TensorFlow 내용 및 사용법, 기본 신경망, CNN(Convolutional Neural Networks), RNN(Recurrent Neural Networks), GAN등 널리 알려진 딥러닝 기술들을 소개했다. 이러한 딥러닝 망들을 활용하여, 대규모 영상 인식, 자연어처리뿐만 아니라, 현재 다양한 딥러닝 응용으로 소개되고 있는 여러 가지 예들을 구현한다.
+* 이번 교육과정의 강의 내용은 기본적인 TensorFlow 내용 및 사용법, 기본 신경망, CNN(Convolutional Neural Networks), RNN(Recurrent Neural Networks), GAN등 널리 알려진 딥러닝 기술들에 대한 내용이었다. 이러한 딥러닝 망들을 활용하여, 대규모 영상 인식, 자연어처리뿐만 아니라, 현재 다양한 딥러닝 응용으로 소개되고 있는 여러 가지 예들을 구현할 수 있다.
 
 <!DOCTYPE html>
 <br></br><br></br>
@@ -66,7 +67,13 @@
 **<p></p>2-1. Project 수행과정 : Test**
 * 기존에 존재하는 여러 Style Transfer Project들을 참조했고, 그 중 본인의 작업환경에 가장 적합한 Project를 찾아냄(아래 링크).
   * Thanks to [hwalsuklee](https://github.com/hwalsuklee) : [TF Fast Style Transfer](https://github.com/hwalsuklee/tensorflow-fast-style-transfer)
-* Pre-Trained Model이 존재하여(6가지), 이를 기반으로한 Test에 요구되는 Parameter들을 알아봄.
+* Test과정에서 요구되는 Parameter들을 알아봄.
+  * Required
+    * ```--content``` : Filename of the content image. Default: content/female_knight.jpg
+    * ```--style-model``` : Filename of the style model. Default: models/wave.ckpt
+    * ```--output``` : Filename of the output image. Default: result.jpg
+  * Optional
+    * ```--max_size``` : Maximum width or height of the input images. None do not change image size. Default: None
 * Pre-Trained Model에 Content Image, Style Image를 입력으로 하여, 직접 결과물(Output) 확인.
 <br></br><br></br>
 
