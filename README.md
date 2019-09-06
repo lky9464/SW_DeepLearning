@@ -168,4 +168,4 @@
 <br></br>
 
 ### Reference
-* hwalsuklee's Fast Style Transfer with Tensorflow : [https://github.com/hwalsuklee/tensorflow-fast-style-transfer](https://github.com/hwalsuklee/tensorflow-fast-style-transfer)
+* *hwalsuklee's* Fast Style Transfer with Tensorflow : [https://github.com/hwalsuklee/tensorflow-fast-style-transfer](https://github.com/hwalsuklee/tensorflow-fast-style-transfer)
