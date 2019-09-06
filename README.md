@@ -89,7 +89,7 @@
 </div>
 <div>
 <tr>
- <td>Style Image</td><td>Content Image</td><td>Result Image</td>
+ <td width="30%">Style Image</td><td width="30%">Content Image</td><td width="30%">Result Image</td>
 </tr>
 </div>
 <br></br><br></br>
