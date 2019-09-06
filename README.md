@@ -7,7 +7,8 @@
   * 수행과정
     * Test과정
     * Train과정
-<br></br><br></br>
+* Reference
+<br></br>
 * * *
 * * *
 * * *
@@ -46,9 +47,9 @@
   * [TF Fast Style Transfer](https://github.com/hwalsuklee/tensorflow-fast-style-transfer)
 * Test과정에서 요구되는 Parameter들을 알아봄.
   * Required
-    * ```--content``` : Content Image의 파일 이름 Default: content/female_knight.jpg
-    * ```--style-model``` : Style Model의 파일 이름 Default: models/wave.ckpt
-    * ```--output``` : 결과롤 나온 Image의 파일 이름 설정 Default: result.jpg
+    * ```--content``` : Content Image의 파일 이름. Default: content/female_knight.jpg
+    * ```--style-model``` : Style Model의 파일 이름. Default: models/wave.ckpt
+    * ```--output``` : 결과롤 나온 Image의 파일 이름 설정. Default: result.jpg
   * Optional
     * ```--max_size``` : Input Image의 최대 높이/너비 설정, None은 크기 변경x. Default: None
 * Pycharm을 이용할 경우 각 Parameter는 ```Run>Edit Configurations```에서 설정
@@ -76,7 +77,6 @@
   <td>Style Image(La Muse)</td> <td>Content Image</td> <td>Result Image</td>
  </tr>
 </table>
-<br></br>
 
 (2) Style : Udnie
 <!DOCTYPE html>
@@ -145,7 +145,6 @@
   <td>Style Image(Life of Farmers)</td> <td>Content Image</td> <td>Result Image</td>
  </tr>
 </table>
-<br></br>
 
 (2) Style : __
 <!DOCTYPE html>
@@ -166,3 +165,8 @@
   <td>Style Image</td> <td>Content Image</td> <td>Result Image</td>
  </tr>
 </table>
+
+<br></br>
+
+## Reference
+* hwalsuklee's Fast Style Transfer with Tensorflow : [](https://github.com/hwalsuklee/tensorflow-fast-style-transfer)
