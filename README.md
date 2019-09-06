@@ -74,6 +74,7 @@
   <td>Style Image(La Muse)</td> <td>Content Image</td> <td>Result Image</td>
  </tr>
 </table>
+<br></br>
 
 (2) Style : Udnie
 <!DOCTYPE html>
@@ -142,6 +143,7 @@
   <td>Style Image(Life of Farmers)</td> <td>Content Image</td> <td>Result Image</td>
  </tr>
 </table>
+<br></br>
 
 (2) Style : __
 <!DOCTYPE html>
