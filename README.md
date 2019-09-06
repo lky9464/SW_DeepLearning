@@ -46,15 +46,18 @@
 * 
 <br></br>
 ## Project
-1-1. Project 수행과정
+직접 Style Transfer를 실습해 볼 수 있다. 실습을 위한 준비물은 아래 '요구사항' 부분에 기술해 놓았다.
+1-1. Project 수행과정(Test)
 * Style Transfer를 위해 아예 새로운 신경망과 모델을 만드는 것은 역부족이라 판단.
 * 기존에 존재하는 여러 Style Transfer Project들을 참조했고, 그 중 본인의 작업환경에 가장 적합한 Project를 찾아냄.
 * Pre-Trained Model이 존재하여(6가지), 이를 기반으로한 Test에 요구되는 Parameter들을 알아봄.
-* Pre-Trained Model에 Content Image, Style Image를 입력으로 하여, 직접 결과물(Output)을 확인.
-* 나만의 Model을 만들기 위해 
+* Pre-Trained Model에 Content Image, Style Image를 입력으로 하여, 직접 결과물(Output) 확인.
+1-2. Project 수행과정(Train)
+* 나만의 Model을 만들기 위해 학습에 필요한 DataSet을 구함(MS COCO).
+
 <br></br>
 
-2. 주요 사용 Tool/기술
+2. 요구사항
 * Pycharm (Python 3.6)
 * Colab
 * GAN
