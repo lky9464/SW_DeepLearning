@@ -16,7 +16,7 @@
 <br></br>
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/1200px-TensorFlowLogo.svg.png" align="middle" width="50%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/1200px-TensorFlowLogo.svg.png" align="mid" width="50%">
 </img>
 
 <br></br>
