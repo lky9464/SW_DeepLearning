@@ -1,6 +1,6 @@
 창원대학교 정보통신공학과 2019 하계 딥러닝 특강
 =============================================
-## Contents
+## 
 1. 개요
 2. DNN (Deep Neural Network)
 3. CNN (Convolutional Neural Network)
@@ -64,8 +64,8 @@
 <br></br><br></br>
 
 **<p></p>2-1. Project 수행과정 : Test**
-* Style Transfer를 위해 아예 새로운 신경망과 모델을 만드는 것은 역부족이라 판단.
-* 기존에 존재하는 여러 Style Transfer Project들을 참조했고, 그 중 본인의 작업환경에 가장 적합한 Project를 찾아냄.
+* 기존에 존재하는 여러 Style Transfer Project들을 참조했고, 그 중 본인의 작업환경에 가장 적합한 Project를 찾아냄(아래 링크).
+  * Thanks to [hwalsuklee](https://github.com/hwalsuklee) : [TF Fast Style Transfer](https://github.com/hwalsuklee/tensorflow-fast-style-transfer)
 * Pre-Trained Model이 존재하여(6가지), 이를 기반으로한 Test에 요구되는 Parameter들을 알아봄.
 * Pre-Trained Model에 Content Image, Style Image를 입력으로 하여, 직접 결과물(Output) 확인.
 <br></br><br></br>
