@@ -88,7 +88,7 @@
  </img>
 </div>
 <div>
-<p>Style Image</p> <p>Content Image</p> <p>Result Image</p>
+<pre>Style Image        Content Image        Result Image</pre>
 </div>
 <br></br><br></br>
 
