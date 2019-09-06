@@ -7,7 +7,7 @@
   * 수행과정
     * Test과정
     * Train과정
-  * 
+  * 결론
 * Reference
 <br></br>
 
@@ -167,7 +167,7 @@
 </table>
 <br></br><br></br>
 
-**결론**
+**3. 결론**
 * Train 결과 (1)과 (2)는 각각 샤갈의 '*Farmer's Life*', 칸딘스키의 '*Fuga*'의 스타일을 학습시킨 것이다. 
 * 총 4가지 결과물 외에도 여러 이미지로 Train, Test를 진행했다.
 * 결과물들로부터 재미있는 점을 발견했다. 학습 후 Content Image를 다시 그려낼 때 주로 면 부분에 많은 영향을 미쳤다. 위 결과물에서도 보이듯, Content Image선의 형태와 Result Image선의 형태가 거의 일치했다.
