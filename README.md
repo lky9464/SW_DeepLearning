@@ -47,7 +47,7 @@
   * Required
     * ```--content``` : Content Image의 파일 이름. Default: content/female_knight.jpg
     * ```--style-model``` : Style Model의 파일 이름. Default: models/wave.ckpt
-    * ```--output``` : 결과롤 나온 Image의 파일 이름 설정. Default: result.jpg
+    * ```--output``` : 결과로 나올 Image의 파일 이름 설정. Default: result.jpg
   * Optional
     * ```--max_size``` : Input Image의 최대 높이/너비 설정, None은 크기 변경x. Default: None
 * Pycharm을 이용할 경우 각 Parameter는 ```Run>Edit Configurations```에서 설정
